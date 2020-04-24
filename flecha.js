@@ -23,9 +23,8 @@ let deadpool = {
     nombre: 'Wade',
     apellido: 'Wilson',
     poder: 'Regeneración',
-    getNombre: function() {
-        return `${this.nombre} ${this.apellido} - poder: ${this.poder}`;
-    }
+    getNombre: () => `${deadpool.nombre} ${deadpool.apellido}-poder:${deadpool.poder}`
+
 }
 
 console.log(deadpool.getNombre());
